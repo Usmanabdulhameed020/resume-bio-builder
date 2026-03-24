@@ -11,7 +11,7 @@ import Dashboard from './Pages/Dashboard';
 import ArticleDetail from './Pages/ArticleDetail'; 
 import ScoreCardDetail from './Pages/ScoreCardDetail';
 import ProjectManagementPage from './Pages/ProjectManagementPage';
-import ScorecardPage from './Pages/ScorecardPage';
+import ScoreCardPage from './Pages/ScoreCardPage';
 import CRMPage from './Pages/CRMPage';
 import EmailMarketingPage from './Pages/EmailMarketingPage';
 import AIAutomationPage from './Pages/AIAutomationPage';
@@ -65,7 +65,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/scorecard-detail" element={<ScoreCardDetail />} />
         <Route path="/project-management" element={<ProjectManagementPage />} />
-        <Route path="/scorecard/:toolId" element={<ScorecardPage />} />
+        <Route path="/scorecard/:toolId" element={<ScoreCardPage />} />
         <Route path="/guides/crm" element={<CRMPage />} />
         <Route path="/guides/email-marketing" element={<EmailMarketingPage />} />
         <Route path="/guides/ai-automation" element={<AIAutomationPage />} />

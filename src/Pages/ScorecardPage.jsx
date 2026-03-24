@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FiArrowLeft, FiCheckCircle, FiAlertCircle, FiActivity, FiShield, FiExternalLink, FiCpu, FiMail, FiZap, FiBox, FiLayers } from 'react-icons/fi';
 
-const ScorecardPage = () => {
+const ScoreCardPage = () => {
   const { toolId } = useParams();
   const navigate = useNavigate();
 
@@ -316,4 +316,4 @@ const ScorecardPage = () => {
   );
 };
 
-export default ScorecardPage;
+export default ScoreCardPage;
