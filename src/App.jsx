@@ -8,7 +8,7 @@ import Testimonials from './components/Testimonials';
 import SiteBottomHalf from './components/SiteBottomHalf';
 import Footer from './components/Footer';
 import Dashboard from './Pages/Dashboard';
-import ArticleDetail from './pages/ArticleDetail'; 
+import ArticleDetail from './Pages/ArticleDetail'; 
 import ScoreCardDetail from './Pages/ScoreCardDetail';
 import ProjectManagementPage from './Pages/ProjectManagementPage';
 import ScorecardPage from './Pages/ScorecardPage';
