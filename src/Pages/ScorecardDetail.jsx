@@ -4,7 +4,7 @@ import {
   FiArrowLeft, FiPieChart, FiActivity, FiShield, FiTrendingUp, FiCheck, FiX 
 } from 'react-icons/fi';
 
-const ScorecardDetail = () => {
+const ScoreCardDetail = () => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('Overview');
   
@@ -155,4 +155,4 @@ const ScorecardDetail = () => {
   );
 };
 
-export default ScorecardDetail;
+export default ScoreCardDetail;
